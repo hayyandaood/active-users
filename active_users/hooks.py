@@ -5,6 +5,16 @@ app_description = "Diamond Active Users"
 app_email = "hayyan.daood@admin.dpharma.sy"
 app_license = "MIT"
 
+
+
+website_context = {
+    "active_users": "active_users.templates.pages.active_users.get_context"
+}
+
+
+app_include_css = "/assets/active_users/css/active_users.css"
+app_include_js = "/assets/active_users/js/active_users.js"
+
 # Includes in <head>
 # ------------------
 

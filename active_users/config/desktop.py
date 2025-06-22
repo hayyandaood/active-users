@@ -4,7 +4,10 @@ def get_data():
 	return [
 		{
 			"module_name": "Diamond Active Users",
-			"type": "module",
+			"color": "blue",
+            "icon": "octicon octicon-person",
+            "type": "link",
+            "link": "/active-users",
 			"label": _("Diamond Active Users")
 		}
 	]
